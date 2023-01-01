@@ -38,10 +38,8 @@ window.onload = function(){
             running = 1;
 
             setTimeout(()=>{
-                playing = 0;
-                audWord.pause();
-                audAns.pause();
                 alert("Σε ένα λεπτό διάβασες " + totalAnswers + " με  " + correctAnswers + " σωστές επιλογές");
+                location.reload(); 
             }, 60000);
         }
     }
