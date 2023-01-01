@@ -38,7 +38,7 @@ window.onload = function(){
             running = 1;
 
             setTimeout(()=>{
-                alert("Σε ένα λεπτό διάβασες " + totalAnswers + " με  " + correctAnswers + " σωστές επιλογές");
+                alert("Σε ένα λεπτό διάβασες " + totalAnswers + " λέξεις με  " + correctAnswers + " σωστές επιλογές");
                 location.reload(); 
             }, 60000);
         }
