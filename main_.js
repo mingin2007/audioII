@@ -1,4 +1,8 @@
-import {words} from './app.js'
+//import {words} from './app.js'
+
+"use strict";
+
+import words from './JSON/data.json' assert {type: 'json'};
 
 window.onload = function(){
     /*var words = [
